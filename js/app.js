@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const deleteAllSubmit = function(event) {
     const populatedReadingList = document.getElementById("reading-list");
-    while (populatedReadingList.childNodes.length > 1) {
+    while (populatedReadingList.childNodes.length > 0) {
       populatedReadingList.removeChild(populatedReadingList.lastChild);
     };
   };
 
-  const deleteForm = document.querySelector('#reading-list');
+  const deleteForm = document.querySelector('body');
   deleteForm.addEventListener('click', deleteAllSubmit);
 
   const deleteAllButton = document.createElement('button');
