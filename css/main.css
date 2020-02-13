@@ -1,0 +1,19 @@
+body {
+  font-family: Palatino;
+  background-image: url('https://33.media.tumblr.com/1950f4fdbffa940c846b0c450e1d3793/tumblr_n8ou44k4MF1trodxto1_500.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+li {
+  padding: 10px;
+  font-family: fantasy;
+}
+
+h1{
+  font-family: fantasy;
+}
